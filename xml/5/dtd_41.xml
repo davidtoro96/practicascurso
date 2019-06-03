@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!--Ejercicio 4.1 - Datos personales.
+Ver corregido en dtd_41_CORREGIDO.xml-->
+<!DOCTYPE libro [
+    <!ELEMENT libro EMPTY>
+    <!ATTLIST libro autor NMTOKEN #REQUIRED>
+]>
+
+<libro autor="Mario Vargas LLosa" />

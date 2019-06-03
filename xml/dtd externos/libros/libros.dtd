@@ -1,0 +1,16 @@
+<!ELEMENT Libro (Titulo, Abstract,
+Categorias, Precio?)>
+<!ELEMENT Categorias (Categoria,
+Categoria, Categoria)>
+<!ELEMENT Titulo (#PCDATA)>
+<!ELEMENT Abstract (#PCDATA)>
+<!ELEMENT Categoria (#PCDATA)>
+<!ELEMENT Precio (#PCDATA)>
+<!ATTLIST Precio moneda (dol|eur|lib)
+#REQUIRED>
+<!ATTLIST Libro isbn ID #REQUIRED
+nivel CDATA #IMPLIED
+fecha CDATA #REQUIRED
+paginas CDATA #REQUIRED
+autor IDREFS #IMPLIED
+editor IDREFS #IMPLIED>

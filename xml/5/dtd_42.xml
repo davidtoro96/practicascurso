@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!--Ejercicio 4.2 - Inventores.
+Ver corregido en dtd_42_CORREGIDO.xml-->
+<!DOCTYPE inventores [
+    <!ELEMENT inventores>
+    <!ELEMENT inventor EMPTY>
+    <!ATTLIST inventor invento CDATA #REQUIRED>
+    <!ATTLIST inventor nombre ID #REQUIRED>
+]>
+
+<inventores>
+    <inventor nombre="Robert Adler" invento="Mando a distancia"
+/>
+    <inventor nombre="Laszlo Josef Biro" invento="Bolígrafo" />
+    <inventor nombre="Josephine Garis Cochran"
+invento="Lavaplatos" />
+    <inventor invento="Fuego" />
+</inventores>

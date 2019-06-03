@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE cuentas SYSTEM "banco.dtd">
+  <cuentas>
+    <copropietario>John Doe</copropietario>
+    <copropietario>Jack Smith</copropietario>
+    <cheques>
+      <saldo>170.00</saldo>
+      <transaccion>-100.00</transaccion>
+      <transaccion>-500.00</transaccion>
+      <cargos>4.00</cargos>
+    </cheques>
+    <copropietario>John Doe</copropietario>
+    <ahorros>
+      <saldo>5000.00</saldo>
+      <intereses>212.50</intereses>
+    </ahorros>
+</cuentas>

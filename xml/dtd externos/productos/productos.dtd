@@ -1,0 +1,12 @@
+<!ELEMENT Productos (Items*, Impuesto?, Entrega,
+Total-productos)>
+<!ELEMENT Items ((Cantidad|Volumen), Descripcion,
+Precio, Total-item)>
+<!ELEMENT Cantidad (#PCDATA)>
+<!ELEMENT Volumen (#PCDATA)>
+<!ELEMENT Descripcion (#PCDATA)>
+<!ELEMENT Precio (#PCDATA)>
+<!ELEMENT Total-item (#PCDATA)>
+<!ELEMENT Impuesto (#PCDATA)>
+<!ELEMENT Entrega (#PCDATA)>
+<!ELEMENT Total-productos (#PCDATA)>

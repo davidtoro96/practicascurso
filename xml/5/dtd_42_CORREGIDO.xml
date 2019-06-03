@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!--Ejercicio 4.2 - Inventores.-->
+<!DOCTYPE inventores [
+    <!ELEMENT inventores EMPTY>
+    <!ELEMENT inventor EMPTY>
+    <!ATTLIST inventor invento CDATA #REQUIRED>
+    <!ATTLIST inventor nombre ID #IMPLIED>
+]>
+
+<inventores>
+    <inventor nombre="Robert Adler" invento="Mando a distancia" />
+    <inventor nombre="Laszlo Josef Biro" invento="Bolígrafo" />
+    <inventor nombre="Josephine Garis Cochran"
+invento="Lavaplatos" />
+    <inventor invento="Fuego" />
+</inventores>
+
+<!--El primer !ELEMENT (inventores) tiene que estar como EMPTY.-->

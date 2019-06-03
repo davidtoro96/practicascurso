@@ -1,0 +1,13 @@
+<!ENTITY % cuenta "(saldo,
+transaccion*)">
+<!ELEMENT cuentas (copropietario+,
+(cheques|ahorros))+>
+<!ELEMENT copropietario (#PCDATA)>
+<!ELEMENT cheques (%cuenta;,
+cargos)>
+<!ELEMENT ahorros
+(%cuenta;,intereses)>
+<!ELEMENT cargos (#PCDATA)>
+<!ELEMENT intereses (#PCDATA)>
+<!ELEMENT saldo (#PCDATA)>
+<!ELEMENT transaccion (#PCDATA)>

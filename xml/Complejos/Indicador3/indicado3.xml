@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<alumnos xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Indicador3.xsd">
+ <alumno>
+    <nombre>Antonio Pérez</nombre>
+    <dni>111</dni>
+    <direccion>
+         <calle>Calle Fuente</calle>
+         <numero>4</numero>
+         <ciudad>Jabugo</ciudad>
+         <provincia>Huelva</provincia>
+    </direccion>
+    <telefono>
+      <telefono_fijo>959222324</telefono_fijo>
+    </telefono>    
+</alumno>
+
+
+ </alumno>
+<alumno>
+    <nombre>Ramon</nombre>
+    <dni>333</dni>
+    <direccion>
+         <calle>Calle falsa</calle>
+         <numero>6</numero>
+         <ciudad>corodba</ciudad>
+         <provincia>cordoba</provincia>
+    </direccion>
+    <telefono>
+        <telefono_movil>789654109</telefono_movil>
+    </telefono>
+</alumno>
+ 
+<alumno>
+    <nombre>Juan Cabrera</nombre>
+    <dni>222</dni>
+    <direccion>
+        <calle>Calle Jazmin</calle>
+        <numero>9</numero>
+        <ciudad>toledo</ciudad>
+        <provincia>tomate</provincia>
+    </direccion>
+    <telefono>
+        <telefono_fijo>957432098</telefono_fijo>
+    </telefono>
+</alumno>
+</alumnos> 

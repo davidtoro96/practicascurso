@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!--Ejercicio 4.1 - Libro.-->
+<!DOCTYPE libro [
+    <!ELEMENT libro EMPTY>
+    <!ATTLIST libro autor CDATA #REQUIRED>
+]>
+
+<libro autor="Mario Vargas LLosa" />
+
+<!--En lugar de autir NMTOKEN, tendría que ser CDATA-->
